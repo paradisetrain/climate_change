@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Righteous|Roboto&display=swap');
+
+* {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 100%;
+}
+
+html {
+    font-size: calc(14px + (16px - 12px) * ((100vw - 500) / (1600 - 500)));
+    overflow-x: hidden;
+}
+
+
+
+/* --------------------MAIN-------------------- */
+
+
+#mainpage{
+    overflow: hidden;
+}
+
+#back {
+    width: 100%;
+}
+
+video{
+    position: fixed;
+    z-index: -6;
+    width: 100%;
+}
+
+/* --------------------TEXT-------------------- */
+
+h1 {
+    font-family: 'Righteous';
+    font-size: 6.25vw;
+    color: #F8F8F8;
+    position: absolute;
+}
+
+h2 {
+    font-family: 'Poiret One';
+    font-size: 2.25vw;
+    margin-left: 8%;
+    color: black;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75vw;
+    width: 50%;
+    margin-left: 8%;
+    color: black;
+}
+
+#main {
+    width: 100%;
+}
+
+/* ----------------------LINKS------------------*/
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75vw;
+    text-decoration: none;
+    padding: 1px;
+    line-height: 1.25vw;
+    color: #F8F8F8;
+}
+
+.gen {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75vw;
+    color: #F8F8F8;
+    display: block;
+    background-color: black;
+    text-align: center;
+    width: 20%;
+    padding: 1.5% 2%;
+    margin-left: 0%;
+}
+
+.bib {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125vw;
+    color: #000000;
+    width: 100%;
+    padding: 1.5% 0%;
+    margin-left: 8%;
+}
+
+/* --------------------DIVS-------------------- */
+
+.main {
+    background-color: #3ABEFF;
+    width: 100%;
+    margin-top: 25%;
+    padding: 8% 0% 4% 2%;
+    position: absolute;
+
+}
+
+.title {
+    background-color: transparent;
+    margin-top: 4%;
+    margin-left: 16%;
+    width: 50%;
+    position: fixed;
+    z-index: -1;
+    height: 2%;    
+}
+
+.footer {
+    background-color: #3ABEFF;
+    width: 100%;
+    padding: 5% 0% 5% 0%;
+    position: absolute;
+    bottom: 0;
+    overflow: visible;
+    white-space: normal;
+}
+
+.image {
+    margin-right: 8%;
+    width: 30%;
+    position: static;
+    float: right;
+}
+
+.sidebar {
+    width: 40%;
+    height: auto;
+    float: right;
+    margin-right: 3%;
+    margin-top: 5%;
+}
+
+.navbar {
+    z-index: 5;
+    position: static;
+    background-color: rgb(22.7%,74.5%,100%, 0.6);
+    width: 45%;
+    height: 3%;
+    display: block;
+    cursor: pointer;
+    float: right;
+    padding: 3%;
+    border-style: solid;
+    border-width: 1px 1px;
+    border-color: #F8F8F8;
+    text-align: center;
+    vertical-align: -1%;
+}
+
+.navbar:hover {
+    width: 22vw;
+}
+
+.spacer {
+    position: absolute;
+    background-color: transparent;
+    height: 40%;
+    width: 100%;
+}
+
+.spacerhome {
+    background-color: black;
+    height: 32.4%;
+    width: 100%;
+}
